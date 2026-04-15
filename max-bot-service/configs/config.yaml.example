@@ -1,0 +1,21 @@
+# MAX Bot Integration Service Configuration
+# Copy this file to config.yaml and fill in your values
+
+server:
+  port: 8080
+
+database:
+  url: "postgres://user:password@localhost:5432/maxbot?sslmode=disable"
+
+max:
+  bot_token: "max_bot_your_token_here"
+  webhook_secret: "your_webhook_secret_here"
+
+onec:
+  api_key: "your_1c_api_key_here"
+
+session:
+  ttl: "24h"
+
+log:
+  level: "info"
