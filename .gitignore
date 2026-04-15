@@ -10,23 +10,23 @@ vendor/
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
 
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
 # Go-specific
-*.exe
-*.dll
-*.so
-*.a
-*.dylib
 *.test
 *.prof
-cover.out
 ```
