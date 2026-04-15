@@ -1,12 +1,8 @@
 ```
-# Go-specific ignores
+# Compiled and build artifacts
 *.o
-*.a
+*.obj
 *.out
-*.test
-*.prof
-*.mod
-*.sum
 
 # Dependencies
 vendor/
@@ -23,20 +19,14 @@ vendor/
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Build artifacts
-dist/
-build/
-target/
+# Go-specific
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.test
+*.prof
+cover.out
 ```
