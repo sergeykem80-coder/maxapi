@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/example/max-bot-service/internal/service"
-	"github.com/example/max-bot-service/internal/store/postgres"
+	"github.com/sergeykem80-maxapi/internal/service"
+	"github.com/sergeykem80-maxapi/internal/store/postgres"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"

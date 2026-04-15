@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/example/max-bot-service/internal/maxclient"
-	"github.com/example/max-bot-service/internal/store/postgres"
+	"github.com/sergeykem80-maxapi/internal/maxclient"
+	"github.com/sergeykem80-maxapi/internal/store/postgres"
 	"go.uber.org/zap"
 )
 

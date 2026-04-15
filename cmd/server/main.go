@@ -9,12 +9,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/example/max-bot-service/internal/config"
-	"github.com/example/max-bot-service/internal/handler"
-	"github.com/example/max-bot-service/internal/maxclient"
-	"github.com/example/max-bot-service/internal/service"
-	"github.com/example/max-bot-service/internal/store/postgres"
-	"github.com/example/max-bot-service/pkg/logger"
+	"github.com/sergeykem80-maxapi/internal/config"
+	"github.com/sergeykem80-maxapi/internal/handler"
+	"github.com/sergeykem80-maxapi/internal/maxclient"
+	"github.com/sergeykem80-maxapi/internal/service"
+	"github.com/sergeykem80-maxapi/internal/store/postgres"
+	"github.com/sergeykem80-maxapi/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

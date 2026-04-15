@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/example/max-bot-service/internal/service"
+	"github.com/sergeykem80-maxapi/internal/service"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
